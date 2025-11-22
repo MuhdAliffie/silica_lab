@@ -1,0 +1,11 @@
+[workspace]
+members = ["crates/verilog_compiler"]
+
+[package]
+name = "silica-lab"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+random-number = "0.1.8"
+verilog-compiler = { path = "crates/verilog_compiler" }

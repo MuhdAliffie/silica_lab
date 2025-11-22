@@ -1,0 +1,14 @@
+/Users/littleelf/Documents/my_ide_eda/silica-lab/target/debug/deps/serde-e031b40d252c7872.d: /Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/littleelf/Documents/my_ide_eda/silica-lab/target/debug/build/serde-175e4a7142c73832/out/private.rs
+
+/Users/littleelf/Documents/my_ide_eda/silica-lab/target/debug/deps/libserde-e031b40d252c7872.rlib: /Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/littleelf/Documents/my_ide_eda/silica-lab/target/debug/build/serde-175e4a7142c73832/out/private.rs
+
+/Users/littleelf/Documents/my_ide_eda/silica-lab/target/debug/deps/libserde-e031b40d252c7872.rmeta: /Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/littleelf/Documents/my_ide_eda/silica-lab/target/debug/build/serde-175e4a7142c73832/out/private.rs
+
+/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/Users/littleelf/Documents/my_ide_eda/silica-lab/target/debug/build/serde-175e4a7142c73832/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/littleelf/Documents/my_ide_eda/silica-lab/target/debug/build/serde-175e4a7142c73832/out
