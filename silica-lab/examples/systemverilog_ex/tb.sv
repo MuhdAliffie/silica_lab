@@ -3,7 +3,7 @@
 module tb;
     logic clk;
     logic rst;
-    logic q;
+    wire q;
 
     // Instantiate top
     top uut (

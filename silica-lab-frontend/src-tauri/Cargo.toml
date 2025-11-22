@@ -9,6 +9,13 @@ edition = "2021"
 tauri-build = { version = "1", features = [] }
 
 [dependencies]
-tauri = { version = "1", features = [ "shell-execute", "shell-open", "fs-all"] }
+tauri = { version = "1", features = [
+    "dialog-open",
+    "shell-execute",
+    "shell-open",
+    "fs-all",
+] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
+verilog-compiler = { path = "../../silica-lab/crates/verilog_compiler" }
+notify = "6.1"

@@ -16,10 +16,14 @@
       "shell": {
         "all": false,
         "open": true,
-        "execute": true 
+        "execute": true
       },
       "fs": {
-          "all": true
+        "all": true
+      },
+      "dialog": {
+        "all": false,
+        "open": true
       }
     },
     "bundle": {
