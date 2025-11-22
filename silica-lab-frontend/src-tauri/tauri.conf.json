@@ -1,0 +1,38 @@
+{
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist",
+    "withGlobalTauri": true
+  },
+  "package": {
+    "productName": "silica-lab",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "all": false,
+        "open": true,
+        "execute": true 
+      },
+      "fs": {
+          "all": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "identifier": "com.silicalab.ide",
+      "targets": "all"
+    },
+    "windows": [
+      {
+        "title": "Silica Lab",
+        "width": 1200,
+        "height": 800
+      }
+    ]
+  }
+}

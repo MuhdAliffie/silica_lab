@@ -1,0 +1,83 @@
+   0.464252000s  INFO prepare_target{force=false package_id=silica-lab v0.1.0 (/Users/littleelf/Documents/my_ide_eda/silica-lab-frontend/src-tauri) target="silica-lab"}: cargo::core::compiler::fingerprint: dependency on `build_script_build` is newer than we are 1763816514.902514965s > 1763816222.319393906s "/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc_exception-0.1.2"
+   0.510004042s  INFO prepare_target{force=false package_id=silica-lab v0.1.0 (/Users/littleelf/Documents/my_ide_eda/silica-lab-frontend/src-tauri) target="silica-lab"}: cargo::core::compiler::fingerprint: dependency on `build_script_build` is newer than we are 1763816514.910183869s > 1763816224.183505073s "/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tao-0.16.10"
+   0.512194042s  INFO prepare_target{force=false package_id=silica-lab v0.1.0 (/Users/littleelf/Documents/my_ide_eda/silica-lab-frontend/src-tauri) target="silica-lab"}: cargo::core::compiler::fingerprint: fingerprint error for silica-lab v0.1.0 (/Users/littleelf/Documents/my_ide_eda/silica-lab-frontend/src-tauri)/Check { test: false }/TargetInner { name: "silica-lab", doc: true, ..: with_path("/Users/littleelf/Documents/my_ide_eda/silica-lab-frontend/src-tauri/src/main.rs", Edition2021) }
+   0.512203375s  INFO prepare_target{force=false package_id=silica-lab v0.1.0 (/Users/littleelf/Documents/my_ide_eda/silica-lab-frontend/src-tauri) target="silica-lab"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/littleelf/Documents/my_ide_eda/silica-lab-frontend/src-tauri/target/debug/.fingerprint/silica-lab-f536639354f7c4fb/bin-silica-lab`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::cli::main
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.625983583s  INFO prepare_target{force=false package_id=tauri v1.8.3 target="tauri"}: cargo::core::compiler::fingerprint: fingerprint dirty for tauri v1.8.3/Check { test: false }/TargetInner { ..: lib_target("tauri", ["lib"], "/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-1.8.3/src/lib.rs", Edition2021) }
+   0.625993375s  INFO prepare_target{force=false package_id=tauri v1.8.3 target="tauri"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "objc" })
+   0.627506917s  INFO prepare_target{force=false package_id=cocoa v0.24.1 target="cocoa"}: cargo::core::compiler::fingerprint: fingerprint dirty for cocoa v0.24.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cocoa", ["lib"], "/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cocoa-0.24.1/src/lib.rs", Edition2015) }
+   0.627511667s  INFO prepare_target{force=false package_id=cocoa v0.24.1 target="cocoa"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "objc" })
+   0.628561625s  INFO prepare_target{force=false package_id=cocoa-foundation v0.1.2 target="cocoa_foundation"}: cargo::core::compiler::fingerprint: fingerprint dirty for cocoa-foundation v0.1.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cocoa_foundation", ["lib"], "/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cocoa-foundation-0.1.2/src/lib.rs", Edition2015) }
+   0.628565583s  INFO prepare_target{force=false package_id=cocoa-foundation v0.1.2 target="cocoa_foundation"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "objc" })
+   0.629474042s  INFO prepare_target{force=false package_id=objc v0.2.7 target="objc"}: cargo::core::compiler::fingerprint: fingerprint dirty for objc v0.2.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("objc", ["lib"], "/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc-0.2.7/src/lib.rs", Edition2015) }
+   0.629477625s  INFO prepare_target{force=false package_id=objc v0.2.7 target="objc"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "objc_exception" })
+   0.630374292s  INFO prepare_target{force=false package_id=objc_exception v0.1.2 target="objc_exception"}: cargo::core::compiler::fingerprint: fingerprint dirty for objc_exception v0.1.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("objc_exception", ["lib"], "/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc_exception-0.1.2/src/lib.rs", Edition2015) }
+   0.630378042s  INFO prepare_target{force=false package_id=objc_exception v0.1.2 target="objc_exception"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "build_script_build", dep_mtime: FileTime { seconds: 1763816514, nanos: 902514965 }, max_mtime: FileTime { seconds: 1763816222, nanos: 319393906 } })
+   0.631726208s  INFO prepare_target{force=false package_id=objc_exception v0.1.2 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint dirty for objc_exception v0.1.2/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc_exception-0.1.2/build.rs", Edition2015) }
+   0.631729542s  INFO prepare_target{force=false package_id=objc_exception v0.1.2 target="build-script-build"}: cargo::core::compiler::fingerprint:     dirty: EnvVarChanged { name: "MACOSX_DEPLOYMENT_TARGET", old_value: Some("10.13"), new_value: None }
+   0.671251125s  INFO prepare_target{force=false package_id=tauri-runtime-wry v0.14.11 target="tauri_runtime_wry"}: cargo::core::compiler::fingerprint: fingerprint dirty for tauri-runtime-wry v0.14.11/Check { test: false }/TargetInner { ..: lib_target("tauri_runtime_wry", ["lib"], "/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tauri-runtime-wry-0.14.11/src/lib.rs", Edition2021) }
+   0.671257750s  INFO prepare_target{force=false package_id=tauri-runtime-wry v0.14.11 target="tauri_runtime_wry"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "wry" })
+   0.672357667s  INFO prepare_target{force=false package_id=wry v0.24.11 target="wry"}: cargo::core::compiler::fingerprint: fingerprint dirty for wry v0.24.11/Check { test: false }/TargetInner { ..: lib_target("wry", ["lib"], "/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wry-0.24.11/src/lib.rs", Edition2021) }
+   0.672361583s  INFO prepare_target{force=false package_id=wry v0.24.11 target="wry"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "tao" })
+   0.672852875s  INFO prepare_target{force=false package_id=objc_id v0.1.1 target="objc_id"}: cargo::core::compiler::fingerprint: fingerprint dirty for objc_id v0.1.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("objc_id", ["lib"], "/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc_id-0.1.1/src/lib.rs", Edition2015) }
+   0.672856292s  INFO prepare_target{force=false package_id=objc_id v0.1.1 target="objc_id"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "objc" })
+   0.673032833s  INFO prepare_target{force=false package_id=tao v0.16.10 target="tao"}: cargo::core::compiler::fingerprint: fingerprint dirty for tao v0.16.10/Check { test: false }/TargetInner { ..: lib_target("tao", ["lib"], "/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tao-0.16.10/src/lib.rs", Edition2021) }
+   0.673036625s  INFO prepare_target{force=false package_id=tao v0.16.10 target="tao"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "build_script_build", dep_mtime: FileTime { seconds: 1763816514, nanos: 910183869 }, max_mtime: FileTime { seconds: 1763816224, nanos: 183505073 } })
+   0.675345750s  INFO prepare_target{force=false package_id=tao v0.16.10 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint dirty for tao v0.16.10/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "/Users/littleelf/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tao-0.16.10/build.rs", Edition2021) }
+   0.675348875s  INFO prepare_target{force=false package_id=tao v0.16.10 target="build-script-build"}: cargo::core::compiler::fingerprint:     dirty: EnvVarChanged { name: "MACOSX_DEPLOYMENT_TARGET", old_value: Some("10.13"), new_value: None }
+   0.677351958s  INFO prepare_target{force=false package_id=silica-lab v0.1.0 (/Users/littleelf/Documents/my_ide_eda/silica-lab-frontend/src-tauri) target="silica-lab"}: cargo::core::compiler::fingerprint: fingerprint error for silica-lab v0.1.0 (/Users/littleelf/Documents/my_ide_eda/silica-lab-frontend/src-tauri)/Check { test: true }/TargetInner { name: "silica-lab", doc: true, ..: with_path("/Users/littleelf/Documents/my_ide_eda/silica-lab-frontend/src-tauri/src/main.rs", Edition2021) }
+   0.677355792s  INFO prepare_target{force=false package_id=silica-lab v0.1.0 (/Users/littleelf/Documents/my_ide_eda/silica-lab-frontend/src-tauri) target="silica-lab"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/littleelf/Documents/my_ide_eda/silica-lab-frontend/src-tauri/target/debug/.fingerprint/silica-lab-2b339d1e9d29d735/test-bin-silica-lab`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::cli::main
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   Compiling objc_exception v0.1.2
+   Compiling tao v0.16.10
+    Checking objc v0.2.7
+    Checking cocoa-foundation v0.1.2
+    Checking objc_id v0.1.1
+    Checking cocoa v0.24.1
+    Checking wry v0.24.11
+    Checking tauri-runtime-wry v0.14.11
+    Checking tauri v1.8.3
+    Checking silica-lab v0.1.0 (/Users/littleelf/Documents/my_ide_eda/silica-lab-frontend/src-tauri)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 5.29s
